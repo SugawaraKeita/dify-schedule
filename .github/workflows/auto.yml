@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "30 14 * * *" # 毎日14時30分に起動
+    - cron: "45 6 * * *" # 毎日15時45分に起動(UTCのためマイナス9時間)
   workflow_dispatch:
 
 env:
